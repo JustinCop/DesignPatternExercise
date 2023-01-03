@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strategy-cash", "Strategy-cash\Strategy-cash.vcxproj", "{E06629DF-A08B-4F33-A104-4A0BD60500D3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strategy-duck", "Strategy-duck\Strategy-duck.vcxproj", "{DD3E2D42-CB5D-41F1-83E2-F932724C3466}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{E06629DF-A08B-4F33-A104-4A0BD60500D3}.Release|x64.Build.0 = Release|x64
 		{E06629DF-A08B-4F33-A104-4A0BD60500D3}.Release|x86.ActiveCfg = Release|Win32
 		{E06629DF-A08B-4F33-A104-4A0BD60500D3}.Release|x86.Build.0 = Release|Win32
+		{DD3E2D42-CB5D-41F1-83E2-F932724C3466}.Debug|x64.ActiveCfg = Debug|x64
+		{DD3E2D42-CB5D-41F1-83E2-F932724C3466}.Debug|x64.Build.0 = Debug|x64
+		{DD3E2D42-CB5D-41F1-83E2-F932724C3466}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD3E2D42-CB5D-41F1-83E2-F932724C3466}.Debug|x86.Build.0 = Debug|Win32
+		{DD3E2D42-CB5D-41F1-83E2-F932724C3466}.Release|x64.ActiveCfg = Release|x64
+		{DD3E2D42-CB5D-41F1-83E2-F932724C3466}.Release|x64.Build.0 = Release|x64
+		{DD3E2D42-CB5D-41F1-83E2-F932724C3466}.Release|x86.ActiveCfg = Release|Win32
+		{DD3E2D42-CB5D-41F1-83E2-F932724C3466}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

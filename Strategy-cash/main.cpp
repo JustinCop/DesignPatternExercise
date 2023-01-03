@@ -62,6 +62,13 @@ class CashContext
 {
 public:
     CashContext(ICashStrategy* pStrategy): m_pStrategy(pStrategy) {}
+    ~CashContext() {
+        if (m_pStrategy)
+        {
+            delete m_pStrategy;
+        }
+    }
+    
     void SetStrategy(ICashStrategy* pStrategy) {
         if (m_pStrategy)
         {
