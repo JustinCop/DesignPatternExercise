@@ -1,8 +1,12 @@
 #include <algorithm>
 #include <iostream>
 using namespace std;
-// Strategy Interface
 
+// 策略模式-现金收银台
+// 节选自《大话设计模式》
+
+
+// Strategy Interface
 class ICashStrategy
 {
 public:
@@ -73,10 +77,9 @@ private:
 };
 
 
-
-
 int main()
 {
+    // 缺点：对客户暴露了所有策略的类（CashStrategyNormal，CashStrategyRebate，CashStrategyReturn等）
     CashContext cc(new CashStrategyNormal);
     double price = cc.calculateFinalPrice(1000);
     cout << price << endl;
