@@ -21,6 +21,7 @@ protected:
 class CashStrategyNormal :public ICashStrategy
 {
 public:
+    virtual ~CashStrategyNormal() {}
     virtual double calculateFinalPrice(double originalPrice)
     {
         return originalPrice;
@@ -31,6 +32,7 @@ public:
 class CashStrategyRebate :public ICashStrategy
 {
 public:
+    virtual ~CashStrategyRebate() {}
     CashStrategyRebate(double ratio) :finalPriceRatio(ratio) {}
     virtual double calculateFinalPrice(double originalPrice)
     {
@@ -44,6 +46,7 @@ private:
 class CashStrategyReturn :public ICashStrategy
 {
 public:
+    virtual ~CashStrategyReturn() {}
     CashStrategyReturn(double condition, double ret) :condition(condition), ret(ret) {}
     virtual double calculateFinalPrice(double originalPrice)
     {

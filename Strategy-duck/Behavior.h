@@ -43,11 +43,13 @@ protected:
 class QuackLoudly : public IQuackBehavior
 {
 public:
+    virtual ~QuackLoudly() {}
     virtual void quack() { cout << "I quack so loud!" << endl; }
 };
 
 class QuackQuietly :public IQuackBehavior
 {
 public:
+    virtual ~QuackQuietly() {}
     virtual void quack() { cout << "I quack so quiet, sheee..." << endl; }
 };
